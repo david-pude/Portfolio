@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>David</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" style="background-image: url('your-image.jpg');">
+        <div class="hero-content">
+            <img src="profile.jpg" alt="Your Name" class="hero-image">
+            <h2>David B Pude</h2>
+            <p>Bachelor of Science in Information Technology </p>
+            <p>BISU Balilihan Campus</p>
+            <div class="social-media">
+                <a href="#" onclick="location.href='https://www.tiktok.com/@kissekun'"><i class='bx bxl-tiktok'></i></a>
+                <a href="#" onclick="location.href='https://github.com/david-pude'"><i class='bx bxl-github'></i></a>
+                <a href="#" onclick="location.href='https://www.instagram.com/david_pude/'"><i class='bx bxl-instagram'></i></a>
+                <a href="#" onclick="location.href='https://www.facebook.com/david.batuhinay.pude'"><i class='bx bxl-facebook'></i></a>
+
+            </div>
+           
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm David Pude a passionate web developer with experience in creating responsive websites. I specialize in HTML, CSS, JavaScript.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card" style="background-color: #5db3be;">
+                <h3>Simple Basketball League App</h3>
+                <p>This app is designed to help manage inter-basketball leagues in an easy and organized way.</p>
+                <button class="view-btn"onclick="location.href='https://github.com/david-pude/Basketball-League-App' ">View Project</button>
+            </div>
+            <div class="project-card" style="background-color: #5db3be;">
+                <h3>Login and Registation</h3>
+                <p>Description of project 2...</p>
+                <button class="view-btn"onclick="location.href='https://github.com/david-pude/log-in-and-registration' ">View Project</button>
+            </div>
+            <div class="project-card" style="background-color: #5db3be;">
+                <h3>Gym Manangagement System</h3>
+                <p>Description of project 2...</p>
+                <button class="view-btn"onclick="location.href='https://github.com/david-pude/Gym-Management' ">View Project</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <div class="social-media">
+        <a href="#" onclick="location.href='https://www.tiktok.com/@kissekun'"><i class='bx bxl-tiktok'></i></a>
+        <a href="#" onclick="location.href='https://github.com/david-pude'"><i class='bx bxl-github'></i></a>
+        <a href="#" onclick="location.href='https://www.instagram.com/david_pude/'"><i class='bx bxl-instagram'></i></a>
+        <a href="#" onclick="location.href='https://www.facebook.com/david.batuhinay.pude'"><i class='bx bxl-facebook'></i></a>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 David Pude</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
